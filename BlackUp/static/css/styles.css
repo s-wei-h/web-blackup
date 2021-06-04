@@ -1,0 +1,81 @@
+.logo-img {
+    width:170px !important;
+    padding: 10px;
+}
+
+.nav-wrapper{
+    background-color: white !important;
+}
+
+.nav-button:hover{
+    color: white;
+    background-color: #84C2F9;
+}
+
+.nav-link{
+    color:black;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: #1136FD;
+}
+
+
+/*COLORS*/
+:root {
+    --main-colo-bg: #1136FD;
+    --second-color-bg: #1153FD;
+    --third-color-bg: #84C2F9;
+    --fourth-color-bg: #C7D8E7;
+    --fifth-color-bg: #A9A9A9;
+    --main-color: #1136FD;
+    --second-color: #1153FD;
+    --third-color: #84C2F9;
+    --fourth-color: #C7D8E7;
+    --fifth-color: #A9A9A9;
+    --black-color: black;
+}
+.main-color-bg {
+    background-color: #1136FD !important;
+}
+
+.second-color-bg {
+    background-color: #1153FD;
+}
+
+.third-color-bg {
+    background-color: #84C2F9;
+}
+
+.fourth-color-bg {
+    background-color: #C7D8E7;
+}
+
+.fifth-color-bg {
+    background-color: #A9A9A9;
+}
+
+.main-color {
+    color: #1136FD;
+}
+
+.second-color {
+    color: #1153FD;
+}
+
+.third-color {
+    color: #84C2F9;
+}
+
+.fourth-color {
+    color: #C7D8E7;
+}
+
+.fifth-color {
+    color: #A9A9A9;
+}
+
+.black-color {
+    color: black !important;
+}

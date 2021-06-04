@@ -1,0 +1,42 @@
+<!--THIS IS FOR NAV BAR AND FOOTER-->
+{% load static %}
+<html>
+
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    </head>
+        
+    <body>
+        <!--NAVIGATION BAR-->
+
+        <nav>
+            <div class="nav-wrapper">
+                <!--LOGO-->
+                <a href="{% url 'registerHome' %}" class="left brand-logo">
+                    <img class="logo-img" src="{% static 'img/logo.png' %}">
+                </a>
+
+                <!--NAV LINKS-->
+                <ul id="nav-mobile" class="right">
+                    <li class="nav-button"><a class="nav-link" href="{% url 'register' %}">Sign Up</a></li>
+                    <li class='nav-button'><a class="nav-link">Sign In</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    <body>
+    <!--BODY OF WEBSITE-->
+
+    {% block registerHome %}
+    {% endblock %}
+
+    {% block registerForm %}
+    {% endblock %}
+
+    </body>
+
+
+</html>
